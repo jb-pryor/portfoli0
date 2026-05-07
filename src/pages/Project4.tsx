@@ -31,19 +31,19 @@ function Project4() {
       <div className="mt-10 md:mt-20 text-xl font-bold text-zinc-200 md:ml-40">Solution</div>
       <div className="mt-5 md:ml-40 md:mr-40">
         I created a two-mode system:<br/><br/>
-        A Tile Editor for designing levels<br/>
-        A Game Engine for playing them<br/><br/>
+        • A Tile Editor for designing levels<br/> <br />
+        • A Game Engine for playing them<br/><br/>
         The two modes are connected through file-based level data, allowing seamless transitions between editing and gameplay.
       </div>
 
       <div className="mt-10 md:mt-20 md:mr-40 font-bold text-xl text-zinc-200 md:ml-40">Architecture Overview</div>
       <div className="mt-5 md:ml-40 md:mr-40">
         The project is built around a few core components:<br/><br/>
-        GridPane → handles level editing and tile placement<br/>
-        GameLiveStage → runs the game loop and rendering<br/>
-        Player → physics, movement, and collision system<br/>
-        Camera → dynamic viewport following the player<br/>
-        Tile system → defines behaviors through features<br/><br/>
+        • GridPane → handles level editing and tile placement<br/> <br />
+        • GameLiveStage → runs the game loop and rendering<br/> <br />
+        • Player → physics, movement, and collision system<br/> <br />
+        • Camera → dynamic viewport following the player<br/> <br />
+        • Tile system → defines behaviors through features<br/><br/>
         This separation made the system modular and easier to extend.
       </div>
 
@@ -141,10 +141,10 @@ yOffset += velocity.getY();`}
 
       <div className="mt-6 md:mt-10 md:ml-40 md:mr-40">
         Examples:<br/><br/>
-        death → kills player<br/>
-        end → wins game<br/>
-        break → disappears after time<br/>
-        velmod → changes movement speed
+        • death → kills player<br/> <br />
+        • end → wins game<br/> <br />
+        • break → disappears after time<br/> <br />
+        • velmod → changes movement speed
       </div>
 
       <pre className='md:mr-40 md:ml-40 mt-6 md:mt-10 bg-gray-900 text-purple-400 p-4 rounded-xl overflow-x-auto text-xs md:text-sm'>
@@ -217,11 +217,11 @@ yOffset += velocity.getY();`}
       <div className="mt-10 md:mt-20 font-bold text-xl text-zinc-200 md:ml-40 md:mr-40">What I Learned</div>
       <div className="mt-5 md:ml-40 md:mr-40">
         This project gave me a deeper understanding of:<br/><br/>
-        Game loops and real-time systems<br/>
-        Physics and collision detection<br/>
-        File-based data systems<br/>
-        Rendering optimization techniques<br/>
-        Designing modular systems<br/><br/>
+        • Game loops and real-time systems<br/> <br />
+        • Physics and collision detection<br/> <br />
+        • File-based data systems<br/> <br />
+        • Rendering optimization techniques<br/> <br />
+        • Designing modular systems<br/><br/>
         I also learned how to build systems that separate logic, data, and presentation cleanly.
       </div>
 

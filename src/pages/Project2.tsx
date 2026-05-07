@@ -19,7 +19,7 @@ function Project2() {
       </h1>
 
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40">
-        Over the past few weeks, Carter Davis and I worked on a project that analyzes changes in Python files at the AST level. Instead of only looking at line-by-line differences, the tool parses Python code into abstract syntax trees and compares the structure of the old and new versions. The goal was to make code changes easier to understand, especially when functions are moved, added, deleted, or changed in a way that a normal text diff might not explain clearly.
+      Over the past few weeks, a teammate and I worked on a project that analyzes changes in Python files at the AST level. Instead of only looking at line-by-line differences, the tool parses Python code into abstract syntax trees and compares the structure of the old and new versions. The goal was to make code changes easier to understand, especially when functions are moved, added, deleted, or modified in ways that a normal text diff might not explain clearly.
       </div>
 
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40 font-bold text-zinc-200 text-xl">Problem</div>
@@ -30,11 +30,11 @@ function Project2() {
       <div className="mt-10 md:mt-20 md:mr-40 md:ml-40 font-bold text-zinc-200 text-xl">Solution</div>
       <div className="mt-5 md:ml-40 md:mr-40">
         We built a tool that reads the previous and current version of a Python file, parses both files with Tree-sitter, and compares their AST structures.<br/><br/>
-        The output includes:<br/>
-        ASTs for both files<br/>
-        a similarity score<br/>
-        inserted, deleted, and relabeled nodes<br/>
-        a cleaner function-level summary
+        The output includes:<br/> <br />
+        • ASTs for both files<br/> <br />
+        • a similarity score<br/> <br />
+        • inserted, deleted, and relabeled nodes<br/> <br />
+        • a cleaner function-level summary
       </div>
 
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40 font-bold text-zinc-200 text-xl">GitHub Actions Automation</div>
@@ -266,7 +266,7 @@ score = math.exp(-cost)`}
 
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40 font-bold text-zinc-200 text-xl">What I Learned</div>
       <div className="mt-5 md:ml-40 md:mr-40">
-        This project helped me better understand Docker, GitHub Actions, Tree-sitter, ASTs, and code analysis. It also showed me the difference between comparing code as text and comparing code as structure. I also gained more experience working in a collaborative development environment, where Carter and I had to make design decisions, test changes, and improve the output based on what would actually be useful to a developer.
+        This project helped me better understand Docker, GitHub Actions, Tree-sitter, ASTs, and code analysis. It also showed me the difference between comparing code as text and comparing code as structure. I also gained more experience working in a collaborative development environment, where my teammate and I had to make design decisions, test changes, and improve the output based on what would actually be useful to a developer.
       </div>
 
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40 font-bold text-zinc-200 text-xl">Final Thoughts</div>

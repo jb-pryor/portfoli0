@@ -24,7 +24,7 @@ function Project1() {
 
       <div className="mt-10 md:mt-20 md:mr-40 md:ml-40 font-bold text-xl text-zinc-200">Problem</div>
       <div className="mt-5 md:ml-40 md:mr-40">
-        The main challenge was that the data existed, but it was not easily explorable. Brent wanted a way to visualize KPIs and also track how they changed over time for specific departments. Another key requirement was that the system needed to be dynamic. As new data is added in the future, the dashboard should automatically update without needing manual changes.
+        The main challenge was that the data existed, but it was not easily explorable. Our customer wanted a way to visualize KPIs and also track how they changed over time for specific departments. Another key requirement was that the system needed to be dynamic. As new data is added in the future, the dashboard should automatically update without needing manual changes.
       </div>
       
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40 font-bold text-xl text-zinc-200">Solution</div>
@@ -34,9 +34,9 @@ function Project1() {
       
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40 font-bold text-xl text-zinc-200">Tech Stack</div>
       <div className="mt-5 md:ml-40 md:mr-40">
-        Angular + TypeScript<br/>
-        ApexCharts (data visualization)<br/>
-        Google Sheets API (data source)<br/><br/>
+        • Angular + TypeScript<br/> <br />
+        • ApexCharts (data visualization)<br/> <br />
+        • Google Sheets API (data source)<br/><br/>
         Using Google Sheets allowed us to treat the spreadsheet as a lightweight backend, which made the system easy to update and maintain.
       </div>
       
@@ -96,7 +96,7 @@ function Project1() {
     
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40 font-bold text-xl text-zinc-200">Collaboration</div>
       <div className="mt-5 md:ml-40 md:mr-40">
-        We met with Brent weekly to show progress and gather feedback. This helped ensure that the final product aligned with real-world needs rather than assumptions. Working with a real client also meant adapting quickly and making design decisions based on usability, not just technical preference.
+        We met with our customer weekly to show progress and gather feedback. This helped ensure that the final product aligned with real-world needs rather than assumptions. Working with a real client also meant adapting quickly and making design decisions based on usability, not just technical preference.
       </div>
     
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40 font-bold text-xl text-zinc-200">What I Learned</div>
