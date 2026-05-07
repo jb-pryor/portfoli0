@@ -4,11 +4,13 @@ import anotherPhoto from '../assets/jbGrad.jpg'
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+import Footer from '../components/Footer';
+
 function Home() {
   return (
     <>
-      <div className='bg-zinc-900 min-h-screen font-[Inter] px-6 md:px-20 text-left text-white'>
-        
+      <div className='bg-zinc-900 border-zinc-800 border-1 min-h-screen font-[Inter] text-left text-white'>
+        <div className='px-6 md:px-20'>
         {/* Nav */}
         <div className='flex gap-8 md:gap-25 text-lg md:text-2xl pt-8 md:mt-10'>
           <div className='cursor-pointer font-bold text-purple-500'>Home</div>
@@ -47,7 +49,7 @@ function Home() {
 
         <Link to="/Project1">
           <div className='group cursor-pointer mt-8 md:mt-15 border-2 border-transparent hover:bg-zinc-800 p-4 md:p-5 rounded-2xl transition-colors duration-300'>
-            <div className='text-xl md:text-xl font-bold'>Department KPI Tracker</div>
+            <div className='text-xl md:text-xl font-bold'>Department KPI Dashboard Tracker</div>
             <div className='text-sm mt-2 md:text-base text-zinc-400'>-Angular, Typescript, Apex Charts, Tailwind/DaisyUi</div>
             <div className='mt-2 text-sm md:text-base text-zinc-400'>Worked with director of institutional research at Point Loma Nazarene. Visualizes department performance data. Tracks KPI trends over time for individual departments.</div>
             <div className='text-purple-500 mt-2'>Read Article &gt;</div>
@@ -56,7 +58,7 @@ function Home() {
 
         <Link to="/Project2">
           <div className='group cursor-pointer mt-8 md:mt-15 border-2 border-transparent hover:bg-zinc-800 rounded-2xl p-4 md:p-5 transition-colors duration-300'>
-            <div className='text-xl md:text-xl font-bold'>AST Python Code Comparitor</div>
+            <div className='text-xl md:text-xl font-bold'>AST Parsing GitHub Action Comparison Tool</div>
             <div className='text-sm mt-2 md:text-base text-zinc-400'>-Python, Tree-sitter, GitHub Actions, Docker</div>
             <div className='mt-2 text-sm md:text-base text-zinc-400'>Worked alongside a fellow student to develop a GitHub action that runs on push, checks for modified Python files, parses them and compares their ASTs.</div>
             <div className='text-purple-500 mt-2'>Read Article &gt;</div>
@@ -65,7 +67,7 @@ function Home() {
 
         <Link to="/Project3">
           <div className='group cursor-pointer mt-8 md:mt-15 border-2 border-transparent hover:bg-zinc-800 rounded-2xl p-4 md:p-5 transition-colors duration-300'>
-            <div className='text-xl md:text-xl font-bold'>Spotify Wrap Clone</div>
+            <div className='text-xl md:text-xl font-bold'>Spotify Wrapped Dashboard Clone</div>
             <div className='text-sm mt-2 md:text-base text-zinc-400'>-Next.js, Typescript, SpotifyAPI</div>
             <div className='mt-2 text-sm md:text-base text-zinc-400'>Built a Spotify Wrap clone that connects to a user's Spotify account and displays their most played tracks, artists, and genres.</div>
             <div className='text-purple-500 mt-2'>Read Article &gt;</div>
@@ -74,7 +76,7 @@ function Home() {
 
         <Link to="/Project4">
           <div className='group cursor-pointer mt-8 md:mt-15 border-2 border-transparent hover:bg-zinc-800 rounded-2xl p-4 md:p-5 transition-colors duration-300'>
-            <div className='text-xl md:text-xl font-bold'>Java Infinite Tile Game</div>
+            <div className='text-xl md:text-xl font-bold'>Infinite Tile Editor Game</div>
             <div className='text-sm mt-2 md:text-base text-zinc-400'>-Java, JavaFx, OOP</div>
             <div className='mt-2 text-sm md:text-base text-zinc-400'>Created a JavaFX game that lets users design custom levels, select blocks with different abilities, save them to a file, and play them back with physics.</div>
             <div className='text-purple-500 mt-2'>Read Article &gt;</div>
@@ -125,6 +127,8 @@ function Home() {
             </div>
           </div>
         </div>
+        </div>
+        <Footer />
 
       </div>
     </>

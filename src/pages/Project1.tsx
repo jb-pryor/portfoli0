@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
 
+import Footer from "../components/Footer";
+
 function Project1() {
 
   return (
     <>
-    <div className='bg-zinc-900 text-zinc-400 min-h-screen font-[Inter] px-6 md:px-20 text-left text-white'>
+    <div className='bg-zinc-900 text-zinc-400 min-h-screen font-[Inter] text-left text-white'>
 
+      <div className="px-6 md:px-20">
       {/* Nav */}
       <div className='flex gap-8 md:gap-25 text-lg md:text-2xl pt-8 md:mt-10'>
         <Link to="/"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Home</div></Link>
@@ -105,6 +108,9 @@ function Project1() {
       <div className="mt-5 md:ml-40 md:mr-40 mb-10 pb-10">
         This project was a great introduction to building a product driven by real requirements. It reinforced the importance of balancing technical implementation with user experience and long-term maintainability.
       </div>
+      </div>
+
+      <Footer />
 
     </div>
     </>

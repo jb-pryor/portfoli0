@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
 
+import Footer from "../components/Footer";
+
 function Project2() {
 
   return (
     <>
-    <div className='bg-zinc-900 min-h-screen text-zinc-400 font-[Inter] px-6 md:px-20 text-left text-white'>
+    <div className='bg-zinc-900 min-h-screen text-zinc-400 font-[Inter] text-left text-white'>
 
+      <div className="px-6 md:px-20">
       {/* Nav */}
       <div className='flex gap-8 md:gap-25 text-lg md:text-2xl pt-8 md:mt-10'>
         <Link to="/"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Home</div></Link>
@@ -272,6 +275,9 @@ score = math.exp(-cost)`}
         In the future, this tool could be expanded to detect more advanced changes, such as renamed functions, changed control flow, or similarities across multiple files.
       </div>
 
+      </div>
+
+      <Footer />
     </div>
     </>
   );

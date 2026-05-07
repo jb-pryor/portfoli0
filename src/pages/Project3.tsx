@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import Footer from "../components/Footer";
+
 function Project3() {
 
   const codeExample = `<iframe
@@ -9,15 +11,16 @@ function Project3() {
 
   return (
     <>
-    <div className='bg-zinc-900 min-h-screen font-[Inter] px-6 md:px-20 text-left text-zinc-400'>
+    <div className='bg-zinc-900 min-h-screen font-[Inter] text-left text-zinc-400'>
 
+      <div className="px-6 md:px-20">
       {/* Nav */}
       <div className='flex gap-8 md:gap-25 text-lg md:text-2xl pt-8 md:mt-10'>
         <Link to="/"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Home</div></Link>
       </div>
 
-      <h1 className="text-center text-3xl md:text-5xl font-bold mt-12 md:mt-30 text-zinc-200">
-        Spotify Wrap Dashboard
+      <h1 className="text-center text-3xl md:text-5xl md:ml-40 md:mr-40 font-bold mt-12 md:mt-30 text-zinc-200">
+        Spotify Wrapped Dashboard
       </h1>
 
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40">
@@ -174,6 +177,10 @@ function Project3() {
       <div className="md:ml-40 md:mr-40 mt-5 mb-10 pb-10">
         This project was a great opportunity to build something both functional and user-focused. It reinforced the importance of clean architecture, good UI design, and working with external APIs.
       </div>
+
+      </div>
+
+      <Footer />
 
     </div>
     </>

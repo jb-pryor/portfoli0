@@ -2,12 +2,15 @@ import './App.css'
 import profilePhoto from '../assets/profile.jpg'
 import { Link } from "react-router-dom";
 
+import Footer from '../components/Footer';
+
 function About() {
 
   return (
     <>
-      <div className='bg-zinc-900 min-h-screen font-[Inter] px-6 md:px-20 text-left text-white'>
+      <div className='bg-zinc-900 min-h-screen font-[Inter]  text-left text-white'>
         
+        <div className='px-6 md:px-20'>
         {/* Nav */}
         <div className='flex gap-8 md:gap-25 text-lg md:text-2xl pt-8 md:mt-10'>
           <Link to="/"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Home</div></Link>
@@ -49,7 +52,8 @@ function About() {
         <div className='text-zinc-400 text-sm md:text-base text-gray-200 mt-6 md:mt-8 pb-16'>
           I'm someone who enjoys learning new things, both in and out of tech, and I try to bring that same curiosity and energy into everything I do.
         </div>
-
+        </div>
+        <Footer />
       </div>
     </>
   );
