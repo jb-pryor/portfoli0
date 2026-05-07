@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 import pic1 from '../assets/apitrack/proj1.png';
 import pic2 from '../assets/apitrack/proj2.png';
 import pic3 from '../assets/apitrack/proj3.png';
-import pic4 from '../assets/apitrack/proj4.png';
 
 function Project1() {
 
