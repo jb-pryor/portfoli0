@@ -1,7 +1,11 @@
-function WaveText({ text }) {
+interface WaveTextProps {
+  text: string;
+}
+
+function WaveText({ text }: WaveTextProps) {
   return (
     <div className="text-4xl font-bold tracking-[0.15em]">
-      {text.split("").map((char, index) => (
+      {text.split("").map((char: string, index: number) => (
         <span
           key={index}
           className="mt-50 inline-block animate-wave tracking-[.5em]"
