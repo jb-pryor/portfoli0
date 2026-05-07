@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import myPhoto from '../assets/infjava/game4.png';
+import mytwo from '../assets/infjava/game3.png';
 
 import Footer from "../components/Footer";
 
@@ -213,6 +214,8 @@ yOffset += velocity.getY();`}
       <div className="mt-6 md:mt-10 md:ml-40 md:mr-40">
         This creates a smooth workflow for designing and testing levels.
       </div>
+
+      <img src={mytwo} alt="game screenshot" className="w-full md:w-125 md:ml-40 md:mr-40 mt-6 md:mt-10 rounded-xl"/>
 
       <div className="mt-10 md:mt-20 font-bold text-xl text-zinc-200 md:ml-40 md:mr-40">What I Learned</div>
       <div className="mt-5 md:ml-40 md:mr-40">

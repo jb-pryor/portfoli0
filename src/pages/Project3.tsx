@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 
 import Footer from "../components/Footer";
 
+import onePhoto from '../assets/spotdash/spotdash.png';
+import twoPhoto from '../assets/spotdash/spotartist.png';
+
 function Project3() {
 
   const codeExample = `<iframe
@@ -35,19 +38,19 @@ function Project3() {
       <div className="mt-10 md:mt-20 font-bold text-xl text-zinc-200 md:ml-40 md:mr-40">Solution</div>
       <div className="mt-5 md:ml-40 md:mr-40">
         I built a full-stack dashboard using Next.js and React that pulls user data from the Spotify API and displays it in a clean, responsive interface. The application allows users to:<br/><br/>
-        View top artists, songs, and genres<br/>
-        See their most recently played track<br/>
-        Get a recommended next song<br/>
-        Interact with data through modals and embedded players
+        • View top artists, songs, and genres<br/> <br />
+        • See their most recently played track<br/> <br />
+        • Get a recommended next song<br/> <br />
+        • Interact with data through modals and embedded players
       </div>
 
       <div className="mt-10 md:mt-20 font-bold text-xl text-zinc-200 md:ml-40 md:mr-40">Tech Stack</div>
       <div className="mt-5 md:ml-40 md:mr-40">
-        Next.js (React framework)<br/>
-        TypeScript<br/>
-        Tailwind CSS<br/>
-        Spotify Web API<br/>
-        Server-side API routes
+      • Next.js (React framework)<br/> <br />
+      • TypeScript<br/> <br />
+      • Tailwind CSS<br/><br />
+      • Spotify Web API<br/><br />
+      • Server-side API routes
       </div>
 
       <div className="mt-5 md:ml-40 md:mr-40">
@@ -141,6 +144,8 @@ function Project3() {
         </code>
       </pre>
 
+      <img src={twoPhoto} alt="game screenshot" className="w-full md:w-125 md:ml-40 md:mr-40 mt-6 md:mt-10 rounded-xl"/>
+
       <div className="md:ml-40 md:mr-40 mt-6 md:mt-10">
         This keeps the main dashboard clean while still providing detailed information on demand.
       </div>
@@ -164,6 +169,8 @@ function Project3() {
       </div>
 
       <div className="md:ml-40 md:mr-40 mt-10 md:mt-20 font-bold text-xl text-zinc-200">Example Output</div>
+
+      <img src={onePhoto} alt="game screenshot" className="w-full md:w-125 md:ml-40 md:mr-40 mt-6 md:mt-10 rounded-xl"/>
       <div className="md:ml-40 md:mr-40 mt-5">
         The dashboard presents user data in a clean and interactive layout, allowing for quick exploration and real-time insights.
       </div>

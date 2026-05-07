@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 
 import Footer from "../components/Footer";
 
+import output from '../assets/github/compare.png';
+import action from '../assets/github/action.png';
+
+
 function Project2() {
 
   return (
@@ -37,6 +41,8 @@ function Project2() {
         • a cleaner function-level summary
       </div>
 
+      <img src={output} alt="game screenshot" className="w-full md:w-125 md:ml-40 md:mr-40 mt-6 md:mt-10 rounded-xl"/>
+
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40 font-bold text-zinc-200 text-xl">GitHub Actions Automation</div>
       <div className="mt-5 md:ml-40 md:mr-40">
         One of the most important parts of the project was automating the comparison process with GitHub Actions.
@@ -58,6 +64,8 @@ jobs:
       <div className="mt-6 md:mt-10 md:ml-40 md:mr-40">
         This workflow runs automatically whenever code is pushed. That allowed the tool to become part of the development process instead of something that had to be run manually.
       </div>
+
+      <img src={action} alt="game screenshot" className="w-full md:w-125 md:ml-40 md:mr-40 mt-6 md:mt-10 rounded-xl"/>
 
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40 font-bold text-zinc-200 text-xl">Finding Changed Python Files</div>
       <div className="mt-5 md:ml-40 md:mr-40">

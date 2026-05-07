@@ -2,6 +2,11 @@ import { Link } from "react-router-dom";
 
 import Footer from "../components/Footer";
 
+import pic1 from '../assets/apitrack/proj1.png';
+import pic2 from '../assets/apitrack/proj2.png';
+import pic3 from '../assets/apitrack/proj3.png';
+import pic4 from '../assets/apitrack/proj4.png';
+
 function Project1() {
 
   return (
@@ -31,6 +36,8 @@ function Project1() {
       <div className="mt-5 md:ml-40 md:mr-40">
         Working alongside a classmate, we built a data visualization dashboard to solve these problems. The application allows users to select departments and KPIs, then instantly see trends and performance over time. We focused on making the interface simple while still supporting flexible data exploration.
       </div>
+
+      <img src={pic1} alt="game screenshot" className="w-full md:w-125 md:ml-40 md:mr-40 mt-6 md:mt-10 rounded-xl"/>
       
       <div className="mt-10 md:mt-20 md:ml-40 md:mr-40 font-bold text-xl text-zinc-200">Tech Stack</div>
       <div className="mt-5 md:ml-40 md:mr-40">
@@ -88,7 +95,7 @@ function Project1() {
         One important decision was prioritizing clarity over complexity. Instead of adding too many visual elements, we focused on making the data easy to read and interpret. We also structured the app so that adding a new KPI or department would not require rewriting logic, just updating the data source.
       </div>
 
-      <div className="mt-6 md:mt-10 md:ml-40 md:mr-40">Image</div>
+      <img src={pic3} alt="game screenshot" className="w-full md:w-125 md:ml-40 md:mr-40 mt-6 md:mt-10 rounded-xl"/>
 
       <div className="mt-6 md:mt-10 md:ml-40 md:mr-40">
         The dashboard allows users to quickly compare performance across years and identify trends in specific KPIs.
@@ -103,6 +110,8 @@ function Project1() {
       <div className="mt-5 md:ml-40 md:mr-40">
         This project gave me practical experience building something for an actual user. It showed me how important communication, iteration, and feedback are when developing software. It also helped me better understand how to design systems that are flexible and scalable, especially when working with dynamic data.
       </div>
+
+      <img src={pic2} alt="game screenshot" className="w-full md:w-125 md:ml-40 md:mr-40 mt-6 md:mt-10 rounded-xl"/>
 
       <div className="mt-10 md:mt-20 md:mr-40 md:ml-40 font-bold text-xl text-zinc-200">Final Thoughts</div>
       <div className="mt-5 md:ml-40 md:mr-40 mb-10 pb-10">
