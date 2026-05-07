@@ -60,7 +60,7 @@ function Contact() {
             </div>
 
             <div className='flex items-center gap-2'>
-              <a href="mailto:youremail@example.com">
+              <a href="mailto:jpryor35@icloud.com">
                 <svg width="60" height="60" viewBox="0 0 24 24" className="fill-current cursor-pointer md:w-[135px] md:h-[135px]">
                   <FaEnvelope />
                 </svg>
