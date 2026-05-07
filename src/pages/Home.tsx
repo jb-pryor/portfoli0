@@ -9,14 +9,14 @@ import Footer from '../components/Footer';
 function Home() {
   return (
     <>
-      <div className='bg-zinc-900 border-zinc-800 border-1 min-h-screen font-[Inter] text-left text-white'>
+      <div className='bg-zinc-900 border-zinc-800 border-1 min-h-screen font-[Inter] text-left text-zinc-200'>
         <div className='px-6 md:px-20'>
         {/* Nav */}
         <div className='flex gap-8 md:gap-25 text-lg md:text-2xl pt-8 md:mt-10'>
           <div className='cursor-pointer font-bold text-purple-500'>Home</div>
-          <Link to="/About"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>About</div></Link>
-          <Link to="/Contact"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Contact</div></Link>
-          <Link to="/Blog"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Blog</div></Link>
+          <Link to="/About"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>About</div></Link>
+          <Link to="/Contact"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>Contact</div></Link>
+          <Link to="/Blog"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>Blog</div></Link>
         </div>
 
         {/* Hero */}

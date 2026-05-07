@@ -13,10 +13,10 @@ function About() {
         <div className='px-6 md:px-20'>
         {/* Nav */}
         <div className='flex gap-8 md:gap-25 text-lg md:text-2xl pt-8 md:mt-10'>
-          <Link to="/"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Home</div></Link>
+          <Link to="/"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>Home</div></Link>
           <div className='text-purple-500 font-bold cursor-pointer'>About</div>
-          <Link to="/Contact"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Contact</div></Link>
-          <Link to="/Blog"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Blog</div></Link>
+          <Link to="/Contact"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>Contact</div></Link>
+          <Link to="/Blog"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>Blog</div></Link>
         </div>
 
         {/* Hero */}
@@ -43,13 +43,13 @@ function About() {
         </div>
 
         {/* Bio */}
-        <div className='text-zinc-400 mt-8 md:mt-10 text-sm md:text-base text-gray-200'>
+        <div className='text-zinc-400 mt-8 md:mt-10 text-sm md:text-base'>
           I am a computer science student focused on software engineering, with an interest in building efficient, scalable, and reliable systems. I enjoy solving complex problems through clean, maintainable code and continuously expanding my technical skills. I am particularly interested in developing applications that balance performance with user experience, while following best practices in design and development. I value collaboration, adaptability, and writing code that is both effective and easy for others to understand.
         </div>
-        <div className='text-zinc-400 text-sm md:text-base text-gray-200 mt-6 md:mt-8'>
+        <div className='text-zinc-400 text-sm md:text-base mt-6 md:mt-8'>
           Outside of programming, I enjoy staying active and spending time with friends. I'm a big fan of sports and like being outdoors whenever I can, whether that's playing, watching, or just relaxing. I appreciate the balance between working on technical projects and taking time to recharge through social activities and hobbies.
         </div>
-        <div className='text-zinc-400 text-sm md:text-base text-gray-200 mt-6 md:mt-8 pb-16'>
+        <div className='text-zinc-400 text-sm md:text-base mt-6 md:mt-8 pb-16'>
           I'm someone who enjoys learning new things, both in and out of tech, and I try to bring that same curiosity and energy into everything I do.
         </div>
         </div>
