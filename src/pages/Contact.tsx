@@ -16,7 +16,7 @@ function Contact() {
           <Link to="/"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>Home</div></Link>
           <Link to="/About"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>About</div></Link>
           <div className='text-purple-500 font-bold cursor-pointer'>Contact</div>
-          <Link to="/Blog"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>Blog</div></Link>
+          {/*<Link to="/Blog"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>Blog</div></Link>*/}
         </div>
 
         <div className='flex flex-col md:flex-row gap-8 md:gap-15 mt-4 pb-20'>
@@ -26,9 +26,6 @@ function Contact() {
             
             <div className='mt-6 md:mt-10'></div>
 
-            <div className='text-xl md:text-2xl mt-2'>James Benjamin Pryor</div>
-            <div className='text-xl md:text-2xl mt-2'>San Diego, CA</div>
-
             <div className='w-48 h-48 md:w-75 md:h-75 rounded-2xl overflow-hidden flex-shrink-0'>
               <img
                 src={anotherPhoto}
@@ -36,6 +33,10 @@ function Contact() {
                 className='w-full h-full object-cover scale-255 object-top'
               />
             </div>
+
+
+            <div className='text-xl md:text-2xl mt-2'>James Benjamin Pryor</div>
+            <div className='text-xl md:text-2xl mt-2'>San Diego, CA</div>
           </div>
 
           {/* Social icons */}

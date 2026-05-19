@@ -16,7 +16,7 @@ function Home() {
           <div className='cursor-pointer font-bold text-purple-500'>Home</div>
           <Link to="/About"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>About</div></Link>
           <Link to="/Contact"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>Contact</div></Link>
-          <Link to="/Blog"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>Blog</div></Link>
+          {/*<Link to="/Blog"><div className='text-zinc-200 hover:text-[#7b00ff] cursor-pointer'>Blog</div></Link>*/}
         </div>
 
         {/* Hero */}

@@ -15,7 +15,7 @@ function Footer() {
         <Link to="/"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Home</div></Link>
           <Link to="/About"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>About</div></Link>
           <Link to="/Contact"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Contact</div></Link>
-          <Link to="/Blog"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Blog</div></Link>
+          {/*<Link to="/Blog"><div className='text-gray-200 hover:text-[#7b00ff] cursor-pointer'>Blog</div></Link>*/}
         </div>
 
         {/* Right - created by */}
