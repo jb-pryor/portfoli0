@@ -2,10 +2,6 @@ import './App.css'
 import profilePhoto from '../assets/profile.jpg'
 import { Link } from "react-router-dom";
 
-import jbpic1 from '../assets/jbpic1.jpg'
-import jbpic2 from '../assets/jbpic2.jpeg'
-import jbpic3 from '../assets/jbpic3.jpeg'
-
 
 import Footer from '../components/Footer';
 
