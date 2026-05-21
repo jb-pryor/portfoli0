@@ -71,7 +71,19 @@ function Contact() {
 
           </div>
         </div>
-
+        {/*<form action="" className="contact-left">
+            <h2 className='secTitle'>Contact Me</h2>
+            <div className='contactTitle'>
+              <h3>Send me a message!</h3>
+              <hr />
+            </div>
+            <div className="display-block m-10 p-8 ml-10">
+            <input type='text' name='name' placeholder='Your Name' className='contact-inputs' id='nameInput' required/>
+            <input type="email" name='email' placeholder='Your Email' className='contact-inputs' id='emailInput' required/>
+            <textarea name="message" className='contact-inputs' placeholder='Your Message' id='messageInp' required></textarea>
+            </div>
+            <button type='submit' className='contact-inputs'>Submit</button>
+          </form>*/}
         </div>
         <Footer />
 

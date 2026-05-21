@@ -58,7 +58,7 @@ function About() {
             I'm someone who enjoys learning new things, both in and out of tech, and I try to bring that same curiosity and energy into everything I do.
           </div>
 
-          <div className='flex pb-16 gap-2 md:gap-10'>
+          {/*<div className='flex pb-16 gap-2 md:gap-10'>
             <div className='w-40 h-40 md:w-82 md:h-82 overflow-hidden'>
               <img
                 src={jbpic1}
@@ -80,7 +80,7 @@ function About() {
                   className='w-full h-full object-cover [object-position:center_15%]'
                 />
               </div>
-            </div>
+            </div>*/}
 
         </div>
         <Footer />
